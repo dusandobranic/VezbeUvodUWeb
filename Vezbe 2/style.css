@@ -1,0 +1,44 @@
+/* Svi li elementi neka budu ljubicasti */
+li {
+    color: purple;
+}
+
+/* Svi h1 i h2 da budu crveni */
+h1,h2 {
+    color: red;
+}
+
+/* Element sa id = 'submit' neka ima zelenu pozadinu */
+#submit {
+    background-color: green;
+}
+
+/*  Neka svi span elementi sa id = 'flavors' budu crveni */
+#flavors span {
+    color: red;
+}
+
+/* Elementi sa class = 'size' neka imaju tekst boju magneta */
+.size {
+    color: magenta;
+}
+
+/* Neka email input dobije narandzastu pozadinu */
+input[type="email"] {
+    background-color: orange;
+}
+
+/* Selektuj sve linkove koji se zavrsavaju sa .org i oboji ih u magenta */
+a[href$=".org"] {
+    color: magenta;
+}
+
+/* Selektuj h2 sa klasom bright i oboji je u boju cyan */
+h2.bright {
+    color: cyan;
+ }
+
+/* Obojite sve linkove koji su poseceni u zeleno */
+ a:visited {
+    color: green;
+ }
