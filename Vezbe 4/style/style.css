@@ -11,7 +11,7 @@ body {
   .margin,
   .border,
   .content {
-    padding: 25px;
+    padding: 45px;
     border: 1px solid #888;
     max-width: 350px;
   }
