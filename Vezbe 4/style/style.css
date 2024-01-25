@@ -1,0 +1,43 @@
+body {
+    font-size: 22px;
+    font-family: Comic Sans MS;
+  }
+  
+  .google-link {
+    font-size: 30px;
+  }
+  
+  .padding,
+  .margin,
+  .border,
+  .content {
+    padding: 25px;
+    border: 1px solid #888;
+    max-width: 350px;
+  }
+  
+  .content {
+    background-color: #8BB5C0;
+  }
+  
+  .padding {
+    background-color: #C2CF8A;
+  }
+  
+  .border {
+    background-color: #FDDD9B;
+  }
+  
+  .margin {
+    background-color: #F9CC9D;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin: 100px;
+    list-style: none;
+    margin-bottom: 15px;
+  }
